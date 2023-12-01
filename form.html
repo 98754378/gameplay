@@ -1,0 +1,78 @@
+<html>
+<head>
+  <meta name = "viewport" content = "width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0"/>
+    <link rel="stylesheet" href="index.css">
+    <style>
+    legend{margin-left: 25px;color: rgb(105, 50, 50);text-shadow: 3px 2px 3px rgb(166, 117, 117);margin-top: 20px;font-size: 30px;
+    text-transform: capitalize;}
+    .middlem{width: 900px;height: 700px;padding: 0px;float: left;margin-left: 100px;margin-bottom: 200px;}
+    .in1{width: 190px;background-color: #e6dbdb;height: 20px;}
+    .label1{color: #543535;font-size: 20px;margin-left: 25px;text-shadow: 3px 2px 3px rgb(166, 117, 117);}
+    .label2{color: #543535;font-size: 20px;text-shadow: 3px 2px 3px rgb(166, 117, 117);}
+    </style>
+</head>
+<body style="background-image: url(kh.jpg); background-size: cover;">
+    <div class="nav">
+    <ul>
+        <li><a class="active" href="index.html">Home Page</a></li>
+        <li><a href="about.html">Types of game</a></li>
+        <li><a href="galary.html">Popular games</a></li>
+        <li><a href="phoneme.html">Manual games</a></li>
+        <li><a href="video.html">Electronic game</a></li>
+        <li><a href="form.html">Contact with us</a></li>
+        <li><a href="aasm.html">Team work</a></li>
+      </ul>
+    </div>  <br><br>
+        <div class="middlem"><br><br><br><br>
+            <form>
+                <fieldset>
+                    <legend>Fill out the form:</legend><br><br>
+
+                    <label for="name" class="label1">Frist Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Ahmad" class="in1"><br><br>
+
+                    <label for="name2" class="label1">Last Name:</label>
+                    <input type="text" id="name2" name="name2" placeholder=" Ali" class="in1"><br><br>
+
+                    <label for="email" class="label1">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="email@any.com"
+                    pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" class="in1"><br><br>
+
+                    <label for="pwd" class="label1">Password:</label>
+                    <input type="password" id="pwd" name="pwd" placeholder=" ******" 
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Eight or more characters"
+                    class="in1"><br><br>
+
+                    <label for="phone" class="label1">Mobile number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="0500000000"class="in1"><br><br><br><br>
+
+
+                    <label class="label2">Choose the way to communicate:</label><br><br>
+                   <input type="checkbox" id="html" value="Email" >Email<br>
+                   <input type="checkbox" id="ss" value="Phone" >Phone<br><br><br>
+
+
+                  <label class="label2">Gender:</label><br><br>
+                  <input type="radio" id="ahmad" name="ali" value="Male">Male<br>
+                  <input type="radio" id="ahmad1" name="ali" value="Female">Female<br><br><br>
+
+                  <label class="label2">Choose your country : </label><br><br>
+                  <select>
+                    <option>Saudi</option>
+                    <option>Emirates</option>
+                    <option>Bahrain</option>
+                    <option>Qatar</option>
+                    <option>Kuwait</option>
+                    <option>Amman</option>
+                    <option>Another country...</option>
+                  </select>
+                  <br><br><br><br>
+
+                  <label class="label2">write your notes :</label><br><br>
+                  <textarea name="message" style="width:300px; height:200px;"placeholder="write your notes"></textarea>  <br><br>
+                    <input type="submit" value="Send" style="color: rgb(89, 51, 51);background-color: rgb(242, 239, 235);margin-left: 250px;">
+           </form>
+        </div>
+</body>
+</html>

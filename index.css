@@ -1,0 +1,37 @@
+.nav{width: 1500px;height: 50px;margin: auto;padding: 0px;}
+.middel{width: 900px;height: 500px;;margin: right;padding: 0px;margin-top: 50px;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #5d3232;
+  }
+  
+  li {
+    float: left;
+    margin-left: 50px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #3d3a3a;
+  }
+  
+  .active {
+    background-color: #3d3a3a;
+  }
+  @nav screen and (max-width:1024px) { CSS FOR Max WIDTH 1024Px }
+@middel screen and (max-width:768px) { CSS FOR Max WIDTH 768Px }
+@active screen and (max-width:640px) { CSS FOR Max WIDTH 640Px }
+@ul screen and (max-width:480px) { CSS FOR Max WIDTH 480Px }
+@li screen and (max-width:320px) { CSS FOR Max WIDTH 320Px }
+   
+  
